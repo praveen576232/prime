@@ -4,15 +4,15 @@ class Allurls {
   static Uri fetchTrending = Uri.https(
       'api.themoviedb.org',
       '/3/trending/all/week',
-      {'api_key': 'bcfa6c440dece238c4646cee7dd93d9e', 'language': 'en-US'});
+      {'api_key': API_KEY, 'language': 'en-US'});
 
   static Uri feachHororMovie = Uri.https(
       'api.themoviedb.org',
       '/3/discover/movie',
-      {'api_key': 'bcfa6c440dece238c4646cee7dd93d9e', 'with_genres': '27'});
+      {'api_key': API_KEY, 'with_genres': '27'});
   static Uri kannadamovie =
       Uri.https('api.themoviedb.org', '/3/discover/movie', {
-    'api_key': 'bcfa6c440dece238c4646cee7dd93d9e',
+    'api_key': API_KEY,
     'region': 'IN',
     'language': 'kn-IN',
     'release_date.gte': '2017-08-01',
@@ -21,7 +21,7 @@ class Allurls {
   });
   static Uri tamilumovie =
       Uri.https('api.themoviedb.org', '/3/discover/movie', {
-    'api_key': 'bcfa6c440dece238c4646cee7dd93d9e',
+    'api_key': API_KEY,
     'region': 'IN',
     'language': 'ta-IN',
     'release_date.gte': '2017-08-01',
@@ -30,7 +30,7 @@ class Allurls {
   });
     static Uri telugumovie =
       Uri.https('api.themoviedb.org', '/3/discover/movie', {
-    'api_key': 'bcfa6c440dece238c4646cee7dd93d9e',
+    'api_key': API_KEY,
     'region': 'IN',
     'language': 'te-IN',
     'release_date.gte': '2017-08-01',
@@ -39,7 +39,7 @@ class Allurls {
   });
    static Uri malayalammovie =
       Uri.https('api.themoviedb.org', '/3/discover/movie', {
-    'api_key': 'bcfa6c440dece238c4646cee7dd93d9e',
+    'api_key':API_KEY,
     'region': 'IN',
     'language': 'ml-IN',
     'release_date.gte': '2017-08-01',
@@ -49,9 +49,9 @@ class Allurls {
     static Uri feachComedyMovies = Uri.https(
       'api.themoviedb.org',
       '/3/discover/movie',
-      {'api_key': 'bcfa6c440dece238c4646cee7dd93d9e', 'with_genres': '35'});
+      {'api_key': API_KEY, 'with_genres': '35'});
  static Uri feachScifi = Uri.https(
       'api.themoviedb.org',
       '/3/discover/movie',
-      {'api_key': 'bcfa6c440dece238c4646cee7dd93d9e', 'with_genres': '878'});
+      {'api_key': API_KEY, 'with_genres': '878'});
 }
